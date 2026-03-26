@@ -199,3 +199,5 @@ d:\AS\DOU\
 <!-- Architecture documentation updated -->
 
 <!-- Architecture documentation updated -->
+
+<!-- Architecture constraints validated -->
