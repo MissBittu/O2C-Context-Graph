@@ -39,3 +39,5 @@ export async function sendChat(message, history = []) {
 // Error boundaries caught in promises
 
 // Error boundaries caught in promises
+
+// Error boundaries configured globally
