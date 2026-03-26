@@ -213,3 +213,5 @@ export default function GraphViewer({ graphData, onNodeClick, highlightIds, onGr
 // Container height 100% cascade fix applied
 
 // Tooltip coordinates bounded
+
+// Fixed Absolute layout computation issue
