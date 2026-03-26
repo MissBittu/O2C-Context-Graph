@@ -1,0 +1,10 @@
+version: "1"
+services:
+  - type: web
+    name: o2c-backend
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false # You must paste your key in the Render dashboard
