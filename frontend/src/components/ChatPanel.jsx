@@ -306,3 +306,5 @@ function DataTable({ rows }) {
 // Streaming text decoder implemented
 
 // Added quick action sample queries
+
+// Streaming text decoder logic active
