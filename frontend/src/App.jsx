@@ -159,3 +159,5 @@ export default function App() {
 // Layout flexbox padding adjusted
 
 // Layout flexbox padding adjusted
+
+// Grid layout padding applied
