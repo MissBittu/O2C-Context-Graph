@@ -52,7 +52,8 @@ export default function ChatPanel({ onHighlightNodes }) {
     setLoading(true);
 
     try {
-      const response = await fetch('http://localhost:8000/api/chat/stream', {
+      const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:8000/api';
+      const response = await fetch(`${apiUrl}/chat/stream`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ message: msg, history: getHistory() })
